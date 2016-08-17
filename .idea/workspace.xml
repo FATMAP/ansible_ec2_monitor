@@ -71,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/tasks/prereq.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.80898875" vertical-offset="90" max-vertical-offset="645">
-              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -626,12 +626,12 @@
       <created>1471450464249</created>
       <option name="number" value="Default" />
       <updated>1471450464249</updated>
-      <workItem from="1471450464918" duration="3029000" />
+      <workItem from="1471450464918" duration="3072000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3029000" />
+    <option name="totallyTimeSpent" value="3072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1276" height="777" extended-state="6" />
@@ -721,7 +721,7 @@
     <entry file="file://$PROJECT_DIR$/tasks/prereq.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.80898875" vertical-offset="90" max-vertical-offset="645">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
           <folding />
         </state>
       </provider>

@@ -27,8 +27,8 @@
   
 - name: Unarchive zip
   command: "unzip {{ cloud_watch_monitoring_path }}/{{ cloud_watch_monitoring_script }}"
-    args:
-      chdir: "{{ cloud_watch_monitoring_path }}"
+  args:
+    chdir: "{{ cloud_watch_monitoring_path }}"
   sudo: True
 
 - name: Delete zip file

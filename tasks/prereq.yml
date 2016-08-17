@@ -26,7 +26,7 @@
   sudo: True
   
 - name: Unarchive zip
-  command: unzip "{{ cloud_watch_monitoring_path }}/{{ cloud_watch_monitoring_script }}"
+  command: "unzip {{ cloud_watch_monitoring_path }}/{{ cloud_watch_monitoring_script }}"
     args:
       chdir: "{{ cloud_watch_monitoring_path }}"
   sudo: True

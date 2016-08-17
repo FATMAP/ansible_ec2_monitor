@@ -18,13 +18,11 @@
   when: ansible_os_family == "Suse"
   sudo: True
 
-- name: Download Amazon CloudWatch Monitoring Scripts
-  get_url: url=http://aws-cloudwatch.s3.amazonaws.com/downloads/CloudWatchMonitoringScripts-1.2.1.zip dest={{ cloud_watch_monitoring_path }}/CloudWatchMonitoringScripts-1.2.1.zip
-  sudo: True
-
-- name: Unarchive zip
-  command: unzip {{ cloud_watch_monitoring_path }}/CloudWatchMonitoringScripts-1.2.1.zip
-  sudo: True
+- name: Install Amazon CloudWatch Monitoring Scripts
+  unarchive:
+    src: http://aws-cloudwatch.s3.amazonaws.com/downloads/CloudWatchMonitoringScripts-1.2.1.zip
+    dest: {{ cloud_watch_monitoring_path }}
+    remote_src: yes
 
 - name: Delete zip file
   file: path={{ cloud_watch_monitoring_path }}/CloudWatchMonitoringScripts-1.2.1.zip state=absent

@@ -22,6 +22,7 @@
   get_url:
     url: "http://aws-cloudwatch.s3.amazonaws.com/downloads/{{ cloud_watch_monitoring_script }}"
     dest: "{{ cloud_watch_monitoring_path }}/{{ cloud_watch_monitoring_script }}"
+    mode: 0755
   sudo: True
   
 - name: Unarchive zip

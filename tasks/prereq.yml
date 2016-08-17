@@ -29,6 +29,7 @@
   unarchive:
     src: "{{ cloud_watch_monitoring_path }}/{{ cloud_watch_monitoring_script }}"
     dest: "{{ cloud_watch_monitoring_path }}"
+    remote_src: yes
   sudo: True
 
 - name: Delete zip file
